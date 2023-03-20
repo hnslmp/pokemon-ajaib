@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D9B70876F3F5AF930AC7C52 /* Pods_pokemon_ajaib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A476EFD97143AE05B75383B /* Pods_pokemon_ajaib.framework */; };
+		B5B2C1DA29C895FA0053A0D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1D929C895FA0053A0D1 /* AppDelegate.swift */; };
+		B5B2C1DC29C895FA0053A0D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1DB29C895FA0053A0D1 /* SceneDelegate.swift */; };
+		B5B2C1DE29C895FA0053A0D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1DD29C895FA0053A0D1 /* ViewController.swift */; };
+		B5B2C1E129C895FA0053A0D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B2C1DF29C895FA0053A0D1 /* Main.storyboard */; };
+		B5B2C1E329C895FB0053A0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B2C1E229C895FB0053A0D1 /* Assets.xcassets */; };
+		B5B2C1E629C895FB0053A0D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B2C1E429C895FB0053A0D1 /* LaunchScreen.storyboard */; };
+		B5B2C1F329C896460053A0D1 /* HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1EE29C896460053A0D1 /* HomeModule.swift */; };
+		B5B2C1F429C896460053A0D1 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1EF29C896460053A0D1 /* HomePresenter.swift */; };
+		B5B2C1F529C896460053A0D1 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1F029C896460053A0D1 /* HomeRouter.swift */; };
+		B5B2C1F629C896460053A0D1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1F129C896460053A0D1 /* HomeViewController.swift */; };
+		B5B2C1F729C896460053A0D1 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1F229C896460053A0D1 /* HomeInteractor.swift */; };
+		B5B2C1FB29C896D10053A0D1 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1FA29C896D10053A0D1 /* AppHelper.swift */; };
+		B5B2C1FE29C896F40053A0D1 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1FD29C896F40053A0D1 /* Extension+UIColor.swift */; };
+		B5B2C20029C8970B0053A0D1 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1FF29C8970B0053A0D1 /* Extension+String.swift */; };
+		B5B2C20229C897220053A0D1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C20129C897220053A0D1 /* Constants.swift */; };
+		B5B2C20529C8973F0053A0D1 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C20429C8973F0053A0D1 /* HomeCollectionViewCell.swift */; };
+		B5B2C20829C897590053A0D1 /* CardsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C20729C897590053A0D1 /* CardsResponse.swift */; };
+		B5B2C20B29C897A40053A0D1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C20A29C897A40053A0D1 /* Service.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		501BE98B71C726D8A1866482 /* Pods-pokemon-ajaib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemon-ajaib.release.xcconfig"; path = "Target Support Files/Pods-pokemon-ajaib/Pods-pokemon-ajaib.release.xcconfig"; sourceTree = "<group>"; };
+		5DA16C0E702F0822A4BC50E8 /* Pods-pokemon-ajaib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemon-ajaib.debug.xcconfig"; path = "Target Support Files/Pods-pokemon-ajaib/Pods-pokemon-ajaib.debug.xcconfig"; sourceTree = "<group>"; };
+		9A476EFD97143AE05B75383B /* Pods_pokemon_ajaib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pokemon_ajaib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B2C1D629C895FA0053A0D1 /* pokemon-ajaib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pokemon-ajaib.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B2C1D929C895FA0053A0D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5B2C1DB29C895FA0053A0D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5B2C1DD29C895FA0053A0D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5B2C1E029C895FA0053A0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5B2C1E229C895FB0053A0D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5B2C1E529C895FB0053A0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5B2C1E729C895FB0053A0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B2C1EE29C896460053A0D1 /* HomeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeModule.swift; path = "pokemon-ajaib/HomeModule.swift"; sourceTree = SOURCE_ROOT; };
+		B5B2C1EF29C896460053A0D1 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomePresenter.swift; path = "pokemon-ajaib/HomePresenter.swift"; sourceTree = SOURCE_ROOT; };
+		B5B2C1F029C896460053A0D1 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeRouter.swift; path = "pokemon-ajaib/HomeRouter.swift"; sourceTree = SOURCE_ROOT; };
+		B5B2C1F129C896460053A0D1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "pokemon-ajaib/HomeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		B5B2C1F229C896460053A0D1 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeInteractor.swift; path = "pokemon-ajaib/HomeInteractor.swift"; sourceTree = SOURCE_ROOT; };
+		B5B2C1FA29C896D10053A0D1 /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
+		B5B2C1FD29C896F40053A0D1 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		B5B2C1FF29C8970B0053A0D1 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		B5B2C20129C897220053A0D1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B5B2C20429C8973F0053A0D1 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5B2C20729C897590053A0D1 /* CardsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsResponse.swift; sourceTree = "<group>"; };
+		B5B2C20A29C897A40053A0D1 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5B2C1D329C895FA0053A0D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9B70876F3F5AF930AC7C52 /* Pods_pokemon_ajaib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		626D156DD7BF5082EAE2351E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A476EFD97143AE05B75383B /* Pods_pokemon_ajaib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5B2C1CD29C895FA0053A0D1 = {
+			isa = PBXGroup;
+			children = (
+				B5B2C1D829C895FA0053A0D1 /* pokemon-ajaib */,
+				B5B2C1D729C895FA0053A0D1 /* Products */,
+				F43E38C56027533FF8A04FE0 /* Pods */,
+				626D156DD7BF5082EAE2351E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5B2C1D729C895FA0053A0D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2C1D629C895FA0053A0D1 /* pokemon-ajaib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5B2C1D829C895FA0053A0D1 /* pokemon-ajaib */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2C20929C8979C0053A0D1 /* Network */,
+				B5B2C20629C8974E0053A0D1 /* Model */,
+				B5B2C1F829C896C10053A0D1 /* Common */,
+				B5B2C1ED29C896340053A0D1 /* Presentation */,
+				B5B2C1D929C895FA0053A0D1 /* AppDelegate.swift */,
+				B5B2C1DB29C895FA0053A0D1 /* SceneDelegate.swift */,
+				B5B2C1DD29C895FA0053A0D1 /* ViewController.swift */,
+				B5B2C1DF29C895FA0053A0D1 /* Main.storyboard */,
+				B5B2C1E229C895FB0053A0D1 /* Assets.xcassets */,
+				B5B2C1E429C895FB0053A0D1 /* LaunchScreen.storyboard */,
+				B5B2C1E729C895FB0053A0D1 /* Info.plist */,
+			);
+			path = "pokemon-ajaib";
+			sourceTree = "<group>";
+		};
+		B5B2C1ED29C896340053A0D1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2C20329C897300053A0D1 /* Cell */,
+				B5B2C1EE29C896460053A0D1 /* HomeModule.swift */,
+				B5B2C1EF29C896460053A0D1 /* HomePresenter.swift */,
+				B5B2C1F029C896460053A0D1 /* HomeRouter.swift */,
+				B5B2C1F129C896460053A0D1 /* HomeViewController.swift */,
+				B5B2C1F229C896460053A0D1 /* HomeInteractor.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B5B2C1F829C896C10053A0D1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2C1FC29C896E80053A0D1 /* Extension */,
+				B5B2C1F929C896C50053A0D1 /* Helper */,
+				B5B2C20129C897220053A0D1 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B5B2C1F929C896C50053A0D1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2C1FA29C896D10053A0D1 /* AppHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B5B2C1FC29C896E80053A0D1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2C1FD29C896F40053A0D1 /* Extension+UIColor.swift */,
+				B5B2C1FF29C8970B0053A0D1 /* Extension+String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B5B2C20329C897300053A0D1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2C20429C8973F0053A0D1 /* HomeCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B5B2C20629C8974E0053A0D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2C20729C897590053A0D1 /* CardsResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5B2C20929C8979C0053A0D1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2C20A29C897A40053A0D1 /* Service.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F43E38C56027533FF8A04FE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DA16C0E702F0822A4BC50E8 /* Pods-pokemon-ajaib.debug.xcconfig */,
+				501BE98B71C726D8A1866482 /* Pods-pokemon-ajaib.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5B2C1D529C895FA0053A0D1 /* pokemon-ajaib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B2C1EA29C895FB0053A0D1 /* Build configuration list for PBXNativeTarget "pokemon-ajaib" */;
+			buildPhases = (
+				4C8A1C2CA9939DC35B9EB3E9 /* [CP] Check Pods Manifest.lock */,
+				B5B2C1D229C895FA0053A0D1 /* Sources */,
+				B5B2C1D329C895FA0053A0D1 /* Frameworks */,
+				B5B2C1D429C895FA0053A0D1 /* Resources */,
+				F28CDF39B72094390307E73E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pokemon-ajaib";
+			productName = "pokemon-ajaib";
+			productReference = B5B2C1D629C895FA0053A0D1 /* pokemon-ajaib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5B2C1CE29C895FA0053A0D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B5B2C1D529C895FA0053A0D1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B5B2C1D129C895FA0053A0D1 /* Build configuration list for PBXProject "pokemon-ajaib" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5B2C1CD29C895FA0053A0D1;
+			productRefGroup = B5B2C1D729C895FA0053A0D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5B2C1D529C895FA0053A0D1 /* pokemon-ajaib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5B2C1D429C895FA0053A0D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B2C1E629C895FB0053A0D1 /* LaunchScreen.storyboard in Resources */,
+				B5B2C1E329C895FB0053A0D1 /* Assets.xcassets in Resources */,
+				B5B2C1E129C895FA0053A0D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C8A1C2CA9939DC35B9EB3E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pokemon-ajaib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F28CDF39B72094390307E73E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pokemon-ajaib/Pods-pokemon-ajaib-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pokemon-ajaib/Pods-pokemon-ajaib-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pokemon-ajaib/Pods-pokemon-ajaib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5B2C1D229C895FA0053A0D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B2C1DE29C895FA0053A0D1 /* ViewController.swift in Sources */,
+				B5B2C1FE29C896F40053A0D1 /* Extension+UIColor.swift in Sources */,
+				B5B2C20B29C897A40053A0D1 /* Service.swift in Sources */,
+				B5B2C1F529C896460053A0D1 /* HomeRouter.swift in Sources */,
+				B5B2C1DA29C895FA0053A0D1 /* AppDelegate.swift in Sources */,
+				B5B2C1F729C896460053A0D1 /* HomeInteractor.swift in Sources */,
+				B5B2C20529C8973F0053A0D1 /* HomeCollectionViewCell.swift in Sources */,
+				B5B2C20829C897590053A0D1 /* CardsResponse.swift in Sources */,
+				B5B2C1FB29C896D10053A0D1 /* AppHelper.swift in Sources */,
+				B5B2C1F329C896460053A0D1 /* HomeModule.swift in Sources */,
+				B5B2C20029C8970B0053A0D1 /* Extension+String.swift in Sources */,
+				B5B2C1F429C896460053A0D1 /* HomePresenter.swift in Sources */,
+				B5B2C1F629C896460053A0D1 /* HomeViewController.swift in Sources */,
+				B5B2C1DC29C895FA0053A0D1 /* SceneDelegate.swift in Sources */,
+				B5B2C20229C897220053A0D1 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5B2C1DF29C895FA0053A0D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B2C1E029C895FA0053A0D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5B2C1E429C895FB0053A0D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B2C1E529C895FB0053A0D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5B2C1E829C895FB0053A0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5B2C1E929C895FB0053A0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5B2C1EB29C895FB0053A0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA16C0E702F0822A4BC50E8 /* Pods-pokemon-ajaib.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TB45ZQQMB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pokemon-ajaib/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hnslmp.pokemon-ajaib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5B2C1EC29C895FB0053A0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 501BE98B71C726D8A1866482 /* Pods-pokemon-ajaib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TB45ZQQMB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pokemon-ajaib/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hnslmp.pokemon-ajaib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5B2C1D129C895FA0053A0D1 /* Build configuration list for PBXProject "pokemon-ajaib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B2C1E829C895FB0053A0D1 /* Debug */,
+				B5B2C1E929C895FB0053A0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B2C1EA29C895FB0053A0D1 /* Build configuration list for PBXNativeTarget "pokemon-ajaib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B2C1EB29C895FB0053A0D1 /* Debug */,
+				B5B2C1EC29C895FB0053A0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5B2C1CE29C895FA0053A0D1 /* Project object */;
+}

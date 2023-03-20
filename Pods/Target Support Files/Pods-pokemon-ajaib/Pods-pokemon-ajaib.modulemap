@@ -1,0 +1,6 @@
+framework module Pods_pokemon_ajaib {
+  umbrella header "Pods-pokemon-ajaib-umbrella.h"
+
+  export *
+  module * { export * }
+}

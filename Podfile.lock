@@ -1,0 +1,86 @@
+PODS:
+  - Alamofire (5.6.4)
+  - ASJColoredScrollIndicators (1.2)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SDWebImage (5.15.1):
+    - SDWebImage/Core (= 5.15.1)
+  - SDWebImage/Core (5.15.1)
+  - SkeletonView (1.5)
+  - SnapKit (5.6.0)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+  - SwiftyVIPER (1.2.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - ASJColoredScrollIndicators
+  - RxCocoa
+  - RxSwift
+  - SDWebImage (~> 5.0)
+  - SkeletonView (= 1.5.0)
+  - SnapKit
+  - SwifterSwift
+  - SwiftMessages
+  - SwiftyVIPER (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ASJColoredScrollIndicators
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SkeletonView
+    - SnapKit
+    - SwifterSwift
+    - SwiftMessages
+    - SwiftyVIPER
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  ASJColoredScrollIndicators: ad069b6e367abc973516cd60f0c43e191012dbc0
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SDWebImage: a254f2c53b46e3fba7946b1f8b8b3eaf00413b92
+  SkeletonView: 6cbb80f82f8bdee3f9093e2fa03b84819b4bd826
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+  SwiftyVIPER: 83afd74104ea27303ec6a52563f4adbf33413e50
+
+PODFILE CHECKSUM: 35aac279b39c6c5389379329073d68add98e97a8
+
+COCOAPODS: 1.11.3
