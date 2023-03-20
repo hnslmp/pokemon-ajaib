@@ -18,7 +18,7 @@ import SwiftyVIPER
 
 /// Should be conformed to by the `HomeRouter` and referenced by `HomePresenter`
 protocol HomePresenterRouterProtocol: PresenterRouterProtocol {
-
+    func goToCardsDetail(_ selectedCard : Cards)
 }
 
 // MARK: -
@@ -29,4 +29,8 @@ final class HomeRouter: RouterProtocol, HomePresenterRouterProtocol {
 	// MARK: - Variables
 
 	weak var viewController: UIViewController?
+    
+    func goToCardsDetail(_ selectedCard : Cards) {
+        viewController?.navigationController?.pushViewController(DetailModule(card: selectedCard).view, animated: true)
+    }
 }

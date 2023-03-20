@@ -165,5 +165,12 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         return CGSize(width: cellWidth, height: cellHeight)
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let cards = obsCards?.value else { return }
+        let selectedCard = cards[indexPath.row]
+        presenter.goToCardsDetail(selectedCard)
+
+    }
+    
     
 }

@@ -18,12 +18,15 @@ class HomeCollectionViewCell: UICollectionViewCell {
     }()
     
     func setupView(card: Cards){
-        cellImage.sd_setImage(with: URL(string: card.images?.large))
-        
         contentView.addSubview(cellImage)
         cellImage.snp.makeConstraints { make in
             make.top.bottom.trailing.leading.equalToSuperview()
         }
+        
+        self.startSkeleton()
+        cellImage.sd_setImage(with: URL(string: card.images?.large), completed: { (image, error, cacheType, imageURL) in
+            self.stopSkeleton()
+        })
     }
     
     func setupBroken() {

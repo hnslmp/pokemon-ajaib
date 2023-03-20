@@ -14,11 +14,6 @@
 		B5B2C1E129C895FA0053A0D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B2C1DF29C895FA0053A0D1 /* Main.storyboard */; };
 		B5B2C1E329C895FB0053A0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B2C1E229C895FB0053A0D1 /* Assets.xcassets */; };
 		B5B2C1E629C895FB0053A0D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B2C1E429C895FB0053A0D1 /* LaunchScreen.storyboard */; };
-		B5B2C1F329C896460053A0D1 /* HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1EE29C896460053A0D1 /* HomeModule.swift */; };
-		B5B2C1F429C896460053A0D1 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1EF29C896460053A0D1 /* HomePresenter.swift */; };
-		B5B2C1F529C896460053A0D1 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1F029C896460053A0D1 /* HomeRouter.swift */; };
-		B5B2C1F629C896460053A0D1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1F129C896460053A0D1 /* HomeViewController.swift */; };
-		B5B2C1F729C896460053A0D1 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1F229C896460053A0D1 /* HomeInteractor.swift */; };
 		B5B2C1FB29C896D10053A0D1 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1FA29C896D10053A0D1 /* AppHelper.swift */; };
 		B5B2C1FE29C896F40053A0D1 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1FD29C896F40053A0D1 /* Extension+UIColor.swift */; };
 		B5B2C20029C8970B0053A0D1 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C1FF29C8970B0053A0D1 /* Extension+String.swift */; };
@@ -26,6 +21,17 @@
 		B5B2C20529C8973F0053A0D1 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C20429C8973F0053A0D1 /* HomeCollectionViewCell.swift */; };
 		B5B2C20829C897590053A0D1 /* CardsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C20729C897590053A0D1 /* CardsResponse.swift */; };
 		B5B2C20B29C897A40053A0D1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C20A29C897A40053A0D1 /* Service.swift */; };
+		B5B2C20D29C89AE10053A0D1 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C20C29C89AE10053A0D1 /* Extension+UIView.swift */; };
+		B5B2C21429C89CF70053A0D1 /* HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C20F29C89CF70053A0D1 /* HomeModule.swift */; };
+		B5B2C21529C89CF70053A0D1 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C21029C89CF70053A0D1 /* HomeRouter.swift */; };
+		B5B2C21629C89CF70053A0D1 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C21129C89CF70053A0D1 /* HomeInteractor.swift */; };
+		B5B2C21729C89CF70053A0D1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C21229C89CF70053A0D1 /* HomeViewController.swift */; };
+		B5B2C21829C89CF70053A0D1 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C21329C89CF70053A0D1 /* HomePresenter.swift */; };
+		B5B2C21F29C89D4A0053A0D1 /* DetailModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C21A29C89D4A0053A0D1 /* DetailModule.swift */; };
+		B5B2C22029C89D4A0053A0D1 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C21B29C89D4A0053A0D1 /* DetailPresenter.swift */; };
+		B5B2C22129C89D4A0053A0D1 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C21C29C89D4A0053A0D1 /* DetailRouter.swift */; };
+		B5B2C22229C89D4A0053A0D1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C21D29C89D4A0053A0D1 /* DetailViewController.swift */; };
+		B5B2C22329C89D4A0053A0D1 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B2C21E29C89D4A0053A0D1 /* DetailInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,11 +46,6 @@
 		B5B2C1E229C895FB0053A0D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5B2C1E529C895FB0053A0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5B2C1E729C895FB0053A0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5B2C1EE29C896460053A0D1 /* HomeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeModule.swift; path = "pokemon-ajaib/HomeModule.swift"; sourceTree = SOURCE_ROOT; };
-		B5B2C1EF29C896460053A0D1 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomePresenter.swift; path = "pokemon-ajaib/HomePresenter.swift"; sourceTree = SOURCE_ROOT; };
-		B5B2C1F029C896460053A0D1 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeRouter.swift; path = "pokemon-ajaib/HomeRouter.swift"; sourceTree = SOURCE_ROOT; };
-		B5B2C1F129C896460053A0D1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "pokemon-ajaib/HomeViewController.swift"; sourceTree = SOURCE_ROOT; };
-		B5B2C1F229C896460053A0D1 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeInteractor.swift; path = "pokemon-ajaib/HomeInteractor.swift"; sourceTree = SOURCE_ROOT; };
 		B5B2C1FA29C896D10053A0D1 /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
 		B5B2C1FD29C896F40053A0D1 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
 		B5B2C1FF29C8970B0053A0D1 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
@@ -52,6 +53,17 @@
 		B5B2C20429C8973F0053A0D1 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		B5B2C20729C897590053A0D1 /* CardsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsResponse.swift; sourceTree = "<group>"; };
 		B5B2C20A29C897A40053A0D1 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		B5B2C20C29C89AE10053A0D1 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		B5B2C20F29C89CF70053A0D1 /* HomeModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeModule.swift; path = "pokemon-ajaib/Presentation/Home/HomeModule.swift"; sourceTree = SOURCE_ROOT; };
+		B5B2C21029C89CF70053A0D1 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeRouter.swift; path = "pokemon-ajaib/Presentation/Home/HomeRouter.swift"; sourceTree = SOURCE_ROOT; };
+		B5B2C21129C89CF70053A0D1 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeInteractor.swift; path = "pokemon-ajaib/Presentation/Home/HomeInteractor.swift"; sourceTree = SOURCE_ROOT; };
+		B5B2C21229C89CF70053A0D1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "pokemon-ajaib/Presentation/Home/HomeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		B5B2C21329C89CF70053A0D1 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePresenter.swift; path = "pokemon-ajaib/Presentation/Home/HomePresenter.swift"; sourceTree = SOURCE_ROOT; };
+		B5B2C21A29C89D4A0053A0D1 /* DetailModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModule.swift; sourceTree = "<group>"; };
+		B5B2C21B29C89D4A0053A0D1 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		B5B2C21C29C89D4A0053A0D1 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		B5B2C21D29C89D4A0053A0D1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B5B2C21E29C89D4A0053A0D1 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +125,8 @@
 		B5B2C1ED29C896340053A0D1 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				B5B2C20329C897300053A0D1 /* Cell */,
-				B5B2C1EE29C896460053A0D1 /* HomeModule.swift */,
-				B5B2C1EF29C896460053A0D1 /* HomePresenter.swift */,
-				B5B2C1F029C896460053A0D1 /* HomeRouter.swift */,
-				B5B2C1F129C896460053A0D1 /* HomeViewController.swift */,
-				B5B2C1F229C896460053A0D1 /* HomeInteractor.swift */,
+				B5B2C21929C89D270053A0D1 /* Detail */,
+				B5B2C20E29C89CE60053A0D1 /* Home */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -146,6 +154,7 @@
 			children = (
 				B5B2C1FD29C896F40053A0D1 /* Extension+UIColor.swift */,
 				B5B2C1FF29C8970B0053A0D1 /* Extension+String.swift */,
+				B5B2C20C29C89AE10053A0D1 /* Extension+UIView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -172,6 +181,31 @@
 				B5B2C20A29C897A40053A0D1 /* Service.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		B5B2C20E29C89CE60053A0D1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2C20329C897300053A0D1 /* Cell */,
+				B5B2C21129C89CF70053A0D1 /* HomeInteractor.swift */,
+				B5B2C20F29C89CF70053A0D1 /* HomeModule.swift */,
+				B5B2C21329C89CF70053A0D1 /* HomePresenter.swift */,
+				B5B2C21029C89CF70053A0D1 /* HomeRouter.swift */,
+				B5B2C21229C89CF70053A0D1 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B5B2C21929C89D270053A0D1 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2C21A29C89D4A0053A0D1 /* DetailModule.swift */,
+				B5B2C21B29C89D4A0053A0D1 /* DetailPresenter.swift */,
+				B5B2C21C29C89D4A0053A0D1 /* DetailRouter.swift */,
+				B5B2C21D29C89D4A0053A0D1 /* DetailViewController.swift */,
+				B5B2C21E29C89D4A0053A0D1 /* DetailInteractor.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		F43E38C56027533FF8A04FE0 /* Pods */ = {
@@ -298,19 +332,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B2C21829C89CF70053A0D1 /* HomePresenter.swift in Sources */,
 				B5B2C1DE29C895FA0053A0D1 /* ViewController.swift in Sources */,
+				B5B2C21629C89CF70053A0D1 /* HomeInteractor.swift in Sources */,
+				B5B2C22129C89D4A0053A0D1 /* DetailRouter.swift in Sources */,
 				B5B2C1FE29C896F40053A0D1 /* Extension+UIColor.swift in Sources */,
+				B5B2C21F29C89D4A0053A0D1 /* DetailModule.swift in Sources */,
+				B5B2C20D29C89AE10053A0D1 /* Extension+UIView.swift in Sources */,
+				B5B2C22229C89D4A0053A0D1 /* DetailViewController.swift in Sources */,
 				B5B2C20B29C897A40053A0D1 /* Service.swift in Sources */,
-				B5B2C1F529C896460053A0D1 /* HomeRouter.swift in Sources */,
 				B5B2C1DA29C895FA0053A0D1 /* AppDelegate.swift in Sources */,
-				B5B2C1F729C896460053A0D1 /* HomeInteractor.swift in Sources */,
+				B5B2C21529C89CF70053A0D1 /* HomeRouter.swift in Sources */,
 				B5B2C20529C8973F0053A0D1 /* HomeCollectionViewCell.swift in Sources */,
 				B5B2C20829C897590053A0D1 /* CardsResponse.swift in Sources */,
+				B5B2C22029C89D4A0053A0D1 /* DetailPresenter.swift in Sources */,
 				B5B2C1FB29C896D10053A0D1 /* AppHelper.swift in Sources */,
-				B5B2C1F329C896460053A0D1 /* HomeModule.swift in Sources */,
 				B5B2C20029C8970B0053A0D1 /* Extension+String.swift in Sources */,
-				B5B2C1F429C896460053A0D1 /* HomePresenter.swift in Sources */,
-				B5B2C1F629C896460053A0D1 /* HomeViewController.swift in Sources */,
+				B5B2C21729C89CF70053A0D1 /* HomeViewController.swift in Sources */,
+				B5B2C21429C89CF70053A0D1 /* HomeModule.swift in Sources */,
+				B5B2C22329C89D4A0053A0D1 /* DetailInteractor.swift in Sources */,
 				B5B2C1DC29C895FA0053A0D1 /* SceneDelegate.swift in Sources */,
 				B5B2C20229C897220053A0D1 /* Constants.swift in Sources */,
 			);

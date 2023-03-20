@@ -21,6 +21,7 @@ import SwiftyVIPER
 protocol HomeViewPresenterProtocol: ViewPresenterProtocol {
     func getObsCards() -> BehaviorRelay<[Cards]>
     func getObsIsLoadingCards() -> BehaviorRelay<Bool>
+    func goToCardsDetail(_ selectedCard : Cards)
     func requestCards()
 }
 
@@ -72,6 +73,10 @@ final class HomePresenter: HomeViewPresenterProtocol, HomeInteractorPresenterPro
     // MARK: - Home Interactor to Presenter Protocol
     func performUpdates() {
         view?.performUpdates()
+    }
+    
+    func goToCardsDetail(_ selectedCard : Cards) {
+        router.goToCardsDetail(selectedCard)
     }
     
     
